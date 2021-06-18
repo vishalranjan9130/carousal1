@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 70%;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+.slider{
+    display: flex;
+    width: 400%;
+    position: relative;
+    height: 70vh;
+    animation: slider 12s infinite ;
+}
+
+img{
+    width: 25%;
+}
+
+@keyframes slider {
+    10%{
+        left: 0;
+    }
+    45%{
+        left: -100%;
+    }
+    80%{
+        left: -200%;
+    }
+    100%{
+        left: -300%;
+    }
+}
+
